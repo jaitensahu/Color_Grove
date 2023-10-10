@@ -103,7 +103,7 @@ button {
 }
 
 h1 {
-    align-self: baseline;
+    /* align-self: baseline; */
     color: white;
     text-shadow: 0 0 10px rgb(34, 0, 255);
 }
