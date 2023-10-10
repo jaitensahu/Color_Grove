@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(180deg, #EF9595, #eda5a5, #EBEF95);
+    padding: 50px 150px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 0.3;
+    align-items: center;
+}
+
+.top h1 {
+    font-size: 60px;
+    color: rgb(244, 246, 118);
+    text-shadow: 0 0 10px black;
+}
+
+.top p {
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+.top :nth-child(3) {
+    margin-top: -25px;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+img {
+    margin-left: 20px;
+}
+
+.bottom-left div:nth-child(2) {
+    display: flex;
+}
+
+table {
+    height: 100%;
+}
+
+tbody :nth-child(5) td {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-right {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg {
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    background: linear-gradient(30deg, #53D9E4, #131EBA);
+    color: white;
+    text-shadow: 0 0 10px rgb(162, 0, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    align-self: baseline;
+    color: white;
+    text-shadow: 0 0 10px rgb(34, 0, 255);
+}
+
+label {
+    font-size: 18px;
+    color: white;
+    text-shadow: 0 0 5px rgb(170, 0, 255);
+}
+
+textarea {
+    padding: 10px;
+}
+
+label:hover,
+input:hover {
+    cursor: pointer;
+}
+
+.shape {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+
+.triangle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.trapezoidal {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.parallelogram {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(219, 255, 127);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.rhombus {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 255, 4);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.pentagon {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 4, 253);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.hexagon {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(251, 0, 255);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.heptagon {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(170, 255, 0);
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+.star {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 98, 0);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
+.button_style{
+    transform :scale(95%);
+}
+
+
+@media screen and (max-width:1016px) {
+    body {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width:1016px) {
+    body {
+        padding: 50px 50px;
+        height: auto;
+    }
+
+    .bottom {
+        flex-direction: column-reverse;
+    }
+
+    .bottom-right {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width:521px) {
+    body {
+        padding: 50px 20px;
+    }
+
+    .bottom {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .top h1 {
+        font-size: 50px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .top :nth-child(3) {
+        margin-top: -15px;
+    }
+}

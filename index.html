@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Shape and Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top">
+        <p>Welcome To </p>
+        <h1>Color Grove</h1>
+        <p> Where Shades Shape Creativity</p>
+        <hr>
+    </div>
+    <h1>Select Color Palette</h1>
+    <div class="bottom">
+       
+        <div class="bottom-left">
+           
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <label for="body1">Change Background color</label></td>
+                        <td>
+                            <div>
+                                <input type="color" id="body1">
+                                <input type="color" id="body2">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="colorSelection">Change Background Shape color</label></td>
+                        <td><input type="color" id="colorSelection"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="shapColorSelection">Change Shape color </label></td>
+                        <td><input type="color" id="shapColorSelection" ></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="textColor">Change Text Color</label></td>
+                        <td><input type="color" id="textColor"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="text">Text Perview</label>
+                            <textarea name="" id="text" cols="30" rows="10" placeholder="Write Something..."></textarea>
+                            <!-- <button>Check</button> -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- <div>
+                <label>Change Background color</label>
+                <div>
+                <input type="color">
+                <input type="color">
+            </div>
+            </div>
+            <div>
+                <label>Change Background Shape color</label>
+                <input type="color">
+            </div>
+            <div>
+                <label>Change Shape color </label>
+                <input type="color">
+            </div>
+            <div>
+                <label>Change Text Color</label>
+                <input type="color">
+            </div>
+            <div>
+                <label>Text Perview</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button>Check</button>
+            </div> -->
+        </div>
+        <div class="bottom-right">
+            <div class="bg" id="bg">
+                <div class="shape" id="shape"></div>
+            </div>
+            <div class="buttons">
+                <!-- <input type="color" > -->
+                <button class="changeColor">Change Color</button>
+                <button class="changeShape">Change Shape</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
