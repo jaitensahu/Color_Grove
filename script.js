@@ -51,7 +51,7 @@ change_shape.addEventListener("mouseup", () => {
 });
 // -----------------------Change BackGround Shape Color----------------------
 let selectColor = document.getElementById("colorSelection");
-selectColor.addEventListener("input", () => {
+selectColor.addEventListener("mouseleave", () => {
   background.style.backgroundColor = selectColor.value;
 });
 // -----------------------Change Shape Color----------------------

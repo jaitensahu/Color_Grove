@@ -17,7 +17,9 @@ body {
     background: linear-gradient(180deg, #EF9595, #eda5a5, #EBEF95);
     padding: 50px 150px;
 }
-
+img{
+    display: none;
+}
 .top {
     display: flex;
     flex-direction: column;
