@@ -6,6 +6,7 @@
 ### Contributors -> [All Contributors](https://github.com/jaitensahu/Color_Grove/graphs/contributors)
 
 ## Submitting a pull request
+
 ### Contributing to the Project
 
 We welcome your contributions to the project. Here are the steps to follow:
@@ -26,6 +27,7 @@ We welcome your contributions to the project. Here are the steps to follow:
 10. Now, please be patient and wait for your pull request to be reviewed and merged.
 
 Thank you for your contributions to the project!
+
 
 ## Points to focus before participating
 
