@@ -3,7 +3,7 @@
 
 *Welcome, developers! It's really **awesome** to have you here. This project is aimed at creating a community and promoting open source.*
 
-### Contributors -> [All Contributors](https://github.com/jaitensahu/Login_page/graphs/contributors)
+### Contributors -> [All Contributors](https://github.com/jaitensahu/Color_Grove/graphs/contributors)
 
 ## Submitting a pull request
 
