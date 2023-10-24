@@ -7,7 +7,7 @@
 
 ## Submitting a pull request
 
-1. [Fork](https://github.com/jaitensahu/Login_page/fork) and clone the repository
+1. [Fork](https://github.com/jaitensahu/Color_Grove/fork) and clone the repository
 2. Create a new branch and select that branch: `git checkout -b my-branch-name`
 3. Add a file with your name in the contributions folder telling about your contributions and also link that file in the readme
 4. Use This Command To Add The New Files To Track List : `git add .`
