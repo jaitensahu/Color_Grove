@@ -7,7 +7,7 @@ A website to help you to decide color palletes for your website.
 
 Visit : [Color-Grove](https://color-grove-jaiten-sahu.vercel.app/)
 
-## Before Participating Read This : [Contributing guidlines](https://github.com/Alok5102R/whichcar/blob/main/CONTRIBUTING.md)
+## Before Participating Read This : [Contributing guidlines](https://github.com/jaitensahu/Color_Grove/blob/main/CONTRIBUTING.md)
 
 ## Key Features:
 * Color picker to pick the Color you want!
