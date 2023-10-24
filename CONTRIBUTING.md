@@ -13,7 +13,7 @@
 4. Use This Command To Add The New Files To Track List : `git add .`
 5. Use This Command To Write Small Description : `git commit -m "description"`
 6. Push To Selected Branch : `git push origin my-branch-name`
-7. [submit a pull request](https://github.com/jaitensahu/Login_page/compare)
+7. [submit a pull request](https://github.com/jaitensahu/Color_Grove/compare)
 8. Now wait for your pull request to be reviewed and merged.
 
 ## Points to focus before participating
