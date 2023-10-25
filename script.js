@@ -81,15 +81,20 @@ selectShapeColor.addEventListener("input", () => {
 // initially set text within shape
 let text = document.getElementById("text");
 window.addEventListener("DOMContentLoaded", () => {
-  shape.innerText = text.value;
+  shape.style.backgroundColor = "transparent";
+  shape.innerText = "Sample Text";
   shape.style.fontSize = "20px";
   shape.setAttribute("class", `shape`);
 });
 
 // set text within shape while changing the text from the textarea
-text.addEventListener("input", () => {
+text.addEventListener("keyup", () => {
   shape.style.backgroundColor = "transparent";
-  shape.innerText = text.value;
+  if (text.value.length > 0) {
+    shape.innerText = text.value;
+  } else {
+    shape.innerText = "Sample Text";
+  }
   shape.style.fontSize = "20px";
   shape.setAttribute("class", `shape`);
 });
