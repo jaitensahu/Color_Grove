@@ -88,7 +88,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 // set text within shape while changing the text from the textarea
-text.addEventListener("keyup", () => {
+text.addEventListener("input", () => {
   shape.style.backgroundColor = "transparent";
   if (text.value.length > 0) {
     shape.innerText = text.value;
