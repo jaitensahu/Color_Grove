@@ -41,7 +41,7 @@ img {
 }
 
 .top :nth-child(3) {
-  margin-top: -25px;
+  margin-top: -15px;
 }
 
 .bottom {
@@ -56,7 +56,13 @@ img {
   flex-direction: column;
   gap: 50px;
 }
-
+/* 
+ */
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
 img {
   margin-left: 20px;
 }
@@ -106,6 +112,7 @@ button {
 
 h1 {
   /* align-self: baseline; */
+  margin-bottom: 10px;
   color: white;
   text-shadow: 0 0 10px rgb(34, 0, 255);
 }
@@ -120,10 +127,6 @@ textarea {
   padding: 10px;
 }
 
-#text {
-  color: #000000;
-}
-
 label:hover,
 input:hover {
   cursor: pointer;
@@ -133,10 +136,6 @@ input:hover {
   width: 150px;
   height: 150px;
   background-color: white;
-  overflow: hidden;
-  white-space: wrap;
-  word-break: break-word;
-  text-align: center;
 }
 
 .triangle {
