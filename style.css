@@ -138,6 +138,12 @@ input:hover {
   background-color: white;
 }
 
+#shape {
+  border: 2px solid red;
+  word-wrap: break-word;
+  text-align: center;
+}
+
 .triangle {
   width: 150px;
   height: 150px;
