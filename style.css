@@ -139,7 +139,6 @@ input:hover {
 }
 
 #shape {
-  border: 2px solid red;
   word-wrap: break-word;
   text-align: center;
 }
