@@ -81,7 +81,6 @@ selectShapeColor.addEventListener("input", () => {
 // initially set text within shape
 let text = document.getElementById("text");
 window.addEventListener("DOMContentLoaded", () => {
-  shape.style.backgroundColor = "transparent";
   shape.innerText = "Sample Text";
   shape.style.fontSize = "20px";
   shape.setAttribute("class", `shape`);
