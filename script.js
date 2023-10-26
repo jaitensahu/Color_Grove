@@ -93,6 +93,7 @@ text.addEventListener("input", () => {
     shape.innerText = text.value;
   } else {
     shape.innerText = "Sample Text";
+    shape.style.backgroundColor = "#FFF";
   }
   shape.style.fontSize = "20px";
   shape.setAttribute("class", `shape`);
