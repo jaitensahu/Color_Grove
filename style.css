@@ -49,6 +49,7 @@ img{
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .bottom-left {
@@ -75,9 +76,17 @@ table {
     height: 100%;
 }
 
+input{
+    margin-left: 20px;
+}
+
 tbody :nth-child(5) td {
     display: flex;
     flex-direction: column;
+}
+
+tbody :nth-child(5) td label {
+    margin-bottom: 10px;
 }
 
 .bottom-right {
@@ -85,6 +94,7 @@ tbody :nth-child(5) td {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .bg {
