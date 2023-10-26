@@ -96,7 +96,15 @@ tbody :nth-child(5) td label {
     align-items: center;
 
 }
-
+.outerCircle{
+    width: 350px;
+    height: 350px;
+    background-color: #131EBA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .bg {
     width: 250px;
     height: 250px;
