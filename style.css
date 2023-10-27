@@ -131,7 +131,7 @@ button {
     background: linear-gradient(30deg, #53D9E4, #131EBA);
     color: white;
     text-shadow: 0 0 10px rgb(162, 0, 255);
-    /* font-weight: bold; */
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
 }
