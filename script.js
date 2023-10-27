@@ -26,6 +26,7 @@ let background = document.getElementById("bg");
 const change_shape = document.querySelector(".changeShape");
 const shape = document.getElementById("shape");
 const body = document.querySelector("body");
+// const headingColor=document.querySelector(".top h1")
 
 //---------------------Change-Color Button----------------------------
 change_color.addEventListener("mousedown", () => {
