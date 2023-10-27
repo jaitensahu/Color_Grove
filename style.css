@@ -7,7 +7,9 @@
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
 }
-
+.container{
+    min-height: 100vh;
+}
 body {
     display: flex;
     justify-content: center;
@@ -55,23 +57,26 @@ img{
 .bottom {
     width: 100%;
     display: flex;
+    align-items: flex-start;
     flex-grow: 1;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .bottom-left {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    margin-right: 60px;
 }
 /* 
  */
  .buttons{
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  align-items: flex-start;
+  gap: 15px;
  }
+
 img {
     margin-left: 20px;
 }
@@ -101,7 +106,8 @@ tbody :nth-child(5) td label {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 100px;
 
 }
 .outerCircle{
@@ -130,17 +136,24 @@ button {
     border: none;
     background: linear-gradient(30deg, #53D9E4, #131EBA);
     color: white;
-    text-shadow: 0 0 10px rgb(162, 0, 255);
+
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
 }
 
+button:hover{
+    background: none;
+    border: 2px solid #131EBA;
+    color: #131EBA;
+    text-shadow: 0 0 2px rgb(162, 0, 255);
+}
+
 h1 {
     /* align-self: baseline; */
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: white;
-    text-shadow: 0 0 10px rgb(34, 0, 255);
+    text-shadow: 0 0 5px rgb(170, 0, 255);
 }
 
 label {
@@ -158,10 +171,26 @@ input:hover {
     cursor: pointer;
 }
 
+.bottom-left input[type="submit"]{
+    margin-top: 20px;
+    color: #131EBA;
+    border: .2rem solid #131EBA;
+    background: #fff;
+    cursor: pointer;
+    transition: .2s;
+    width: 100px;
+  }
+
+.bottom-left input[type="submit"]:hover{
+    color: #fff;
+    background: #0048a1;
+  }
+
 .shape {
     width: 150px;
     height: 150px;
     background-color: white;
+    border: 2px solid #fff;
 }
 
 .triangle {
