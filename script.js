@@ -52,11 +52,11 @@ change_shape.addEventListener("mouseup", () => {
 });
 // -----------------------Change BackGround Shape Color----------------------
 let selectColor = document.getElementById("colorSelection");
-selectColor.addEventListener("mouseleave", () => {
+selectColor.addEventListener("input", () => {
   background.style.backgroundColor = selectColor.value;
 });
 // -----------------------Change Shape Color----------------------
-let selectShapeColor = document.getElementById("shapColorSelection");
+let selectShapeColor = document.getElementById("shapeColorSelection");
 selectShapeColor.addEventListener("input", () => {
   shape.style.backgroundColor = selectShapeColor.value;
 });
