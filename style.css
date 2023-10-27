@@ -157,6 +157,12 @@ input:hover {
   cursor: pointer;
 }
 
+select{
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .shape {
   width: 150px;
   height: 150px;
