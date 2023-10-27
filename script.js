@@ -131,6 +131,8 @@ fontSelector.addEventListener("change", ()=>{
     shape.style.fontStyle = selectedFont
   }
   else {
+    textarea.style.fontStyle = "normal"
+    shape.style.fontStyle = "normal"
     textarea.style.fontFamily = selectedFont
     shape.style.fontFamily = selectedFont
   }
