@@ -43,6 +43,7 @@ let background = document.getElementById("bg");
 const change_shape = document.querySelector(".changeShape");
 const shape = document.getElementById("shape");
 const body = document.querySelector("body");
+// const headingColor=document.querySelector(".top h1")
 
 //---------------------Change-Color Button----------------------------
 change_color.addEventListener("mousedown", () => {
@@ -112,3 +113,11 @@ bodyColor1.addEventListener("input", () => {
 bodyColor2.addEventListener("input", () => {
   body.style.background = `linear-gradient(${bodyColor1.value}, ${bodyColor2.value})`;
 });
+
+
+const outerShape=document.querySelector(".changeColor1")
+const outerCircle=document.querySelector(".outerCircle")
+outerShape.addEventListener("mousedown",()=>{
+  outerCircle.style.backgroundColor = '#'+generateCode();
+  if (i >= colors.length) i = 0;
+})
