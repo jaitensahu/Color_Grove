@@ -17,9 +17,11 @@ body {
     background: linear-gradient(180deg, #EF9595, #eda5a5, #EBEF95);
     padding: 50px 150px;
 }
+
 img{
     display: none;
 }
+
 .top {
     display: flex;
     flex-direction: column;
@@ -57,13 +59,13 @@ img{
     flex-direction: column;
     gap: 50px;
 }
-/* 
- */
- .buttons{
+
+.buttons{
   display: flex;
   flex-direction: row;
   gap: 30px;
- }
+}
+
 img {
     margin-left: 20px;
 }
@@ -118,6 +120,10 @@ button {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(30deg, #131EBA, #53D9E4);
 }
 
 h1 {
