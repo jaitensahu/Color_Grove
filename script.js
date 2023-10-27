@@ -43,6 +43,8 @@ let background = document.getElementById("bg");
 const change_shape = document.querySelector(".changeShape");
 const shape = document.getElementById("shape");
 const body = document.querySelector("body");
+const fontSelector = document.getElementsByTagName('select')[0]
+const textarea = document.getElementsByTagName("textarea")[0]
 // const headingColor=document.querySelector(".top h1")
 
 //---------------------Change-Color Button----------------------------
@@ -120,3 +122,16 @@ outerShape.addEventListener("mousedown", () => {
   outerCircle.style.backgroundColor = "#" + generateCode();
   if (i >= colors.length) i = 0;
 });
+
+// -------------------Change Background Linear Gradient Color--------------
+fontSelector.addEventListener("change", ()=>{
+  const selectedFont = fontSelector.value;
+  if (selectedFont=="normal" || selectedFont=="italic"){
+    textarea.style.fontStyle = selectedFont
+    shape.style.fontStyle = selectedFont
+  }
+  else {
+    textarea.style.fontFamily = selectedFont
+    shape.style.fontFamily = selectedFont
+  }
+})

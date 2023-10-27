@@ -44,8 +44,25 @@
                         <td><input type="color" id="textColor"></td>
                     </tr>
                     <tr>
+                        <td>
+                            <label for="font">Select Font</label>
+                        </td>
+                        <td>
+                            <select name="font" id="font">
+                                <option value="normal">Normal</option>
+                                <option value="italic">Italic</option>
+                                <option value="'Arial', sans-serif">Arial</option>
+                                <option value="'Times New Roman', serif">Times New Roman</option>
+                                <option value="'Garamond', serif">Garamond</option>
+                                <option value="'Georgia', serif">Georgia</option>
+                                <option value="'Courier New', monospace">Courier New</option>
+                                <option value="'Brush Script MT', cursive">Brush Script MT</option>
+                                <option value="'Copperplate', fantasy">Copperplate</option>
+                                <option value="'Papyrus', fantasy">Copperplate</option>
+                            </select>
+                        </td>
                         <td> <label for="text">Text Perview</label>
-                            <textarea name="" id="text" cols="30" rows="3" maxlength="50" placeholder="Write Something..."></textarea>
+                            <textarea name="" id="text" cols="30" rows="3" maxlength="50" placeholder="Write Something..." style="font-style: normal;"></textarea>
                         </td>
                     </tr>
                 </tbody>
@@ -54,9 +71,7 @@
         <div class="bottom-right">
             <div class="outerCircle">
                 <div class="bg" id="bg">
-                    <div class="shape" id="shape">
-                        
-                    </div>
+                    <div class="shape" id="shape" style="font-style: normal;"></div>
                 </div>
             </div>
             <div class="buttons">
