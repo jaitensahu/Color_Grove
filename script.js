@@ -114,10 +114,9 @@ bodyColor2.addEventListener("input", () => {
   body.style.background = `linear-gradient(${bodyColor1.value}, ${bodyColor2.value})`;
 });
 
-
-const outerShape=document.querySelector(".changeColor1")
-const outerCircle=document.querySelector(".outerCircle")
-outerShape.addEventListener("mousedown",()=>{
-  outerCircle.style.backgroundColor = '#'+generateCode();
+const outerShape = document.querySelector(".changeColor1");
+const outerCircle = document.querySelector(".outerCircle");
+outerShape.addEventListener("mousedown", () => {
+  outerCircle.style.backgroundColor = "#" + generateCode();
   if (i >= colors.length) i = 0;
-})
+});

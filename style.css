@@ -161,6 +161,12 @@ input:hover {
   width: 150px;
   height: 150px;
   background-color: white;
+  display: flex;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .triangle {
