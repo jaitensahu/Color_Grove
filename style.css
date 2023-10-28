@@ -169,49 +169,49 @@ input:hover {
   text-align: center;
 }
 
-.triangle {
+#triangle {
   width: 150px;
   height: 150px;
   background-color: rgb(255, 255, 255);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-.trapezoidal {
+#trapezoidal {
   width: 150px;
   height: 150px;
   background-color: rgb(0, 0, 0);
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
-.parallelogram {
+#parallelogram {
   width: 150px;
   height: 150px;
   background-color: rgb(219, 255, 127);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
-.rhombus {
+#rhombus {
   width: 150px;
   height: 150px;
   background-color: rgb(0, 255, 4);
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
-.pentagon {
+#pentagon {
   width: 150px;
   height: 150px;
   background-color: rgb(0, 4, 253);
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
 
-.hexagon {
+#hexagon {
   width: 150px;
   height: 150px;
   background-color: rgb(251, 0, 255);
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
-.heptagon {
+#heptagon {
   width: 150px;
   height: 150px;
   background-color: rgb(170, 255, 0);
@@ -226,7 +226,7 @@ input:hover {
   );
 }
 
-.star {
+#star {
   width: 150px;
   height: 150px;
   background-color: rgb(255, 98, 0);
