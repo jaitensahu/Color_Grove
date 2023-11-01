@@ -1,4 +1,3 @@
-// -------------------Generate Color Code---------------------------------------
 const colors = [
   "0",
   "1",
@@ -40,9 +39,9 @@ let shapes = [
 let i = 0;
 let change_color = document.querySelector(".changeColor");
 let background = document.getElementById("bg");
-const change_shape = document.querySelector(".changeShape");
-const shape = document.getElementById("shape");
-const body = document.querySelector("body");
+let change_shape = document.querySelector(".changeShape");
+let shape = document.querySelector(".shape");
+let body = document.querySelector("body");
 // const headingColor=document.querySelector(".top h1")
 
 //---------------------Change-Color Button----------------------------
@@ -58,12 +57,19 @@ change_color.addEventListener("mouseup", () => {
 
 //---------------------Change-Shape Button----------------------------
 let j = 0;
-change_shape.addEventListener("mousedown", () => {
-  shape.innerText = "";
-  shape.setAttribute("class", `${shapes[j++]}`);
-  change_shape.classList.add("button_style");
-  if (j >= shapes.length) j = 0;
-});
+// change_shape.addEventListener("mousedown", () => {
+//   shape.innerText = "";
+//   shape.id = shapes[Math.floor(Math.random() * shapes.length)];
+//   change_shape.classList.add("button_style");
+//   if (j >= shapes.length) j = 0;
+// });
+
+change_shape.addEventListener("mousedown", ()=>{
+  console.log('clicked')
+    shape.id = shapes[Math.floor(Math.random() * shapes.length)];
+
+})
+
 change_shape.addEventListener("mouseup", () => {
   change_shape.classList.remove("button_style");
 });
@@ -83,20 +89,17 @@ selectShapeColor.addEventListener("input", () => {
 let text = document.getElementById("text");
 window.addEventListener("DOMContentLoaded", () => {
   shape.innerText = "Sample Text";
-  shape.style.fontSize = "20px";
-  shape.setAttribute("class", `shape`);
+  shape.style.fontSize = "15px";
 });
 
 // set text within shape while changing the text from the textarea
 text.addEventListener("input", () => {
-  shape.style.backgroundColor = "transparent";
   if (text.value.length > 0) {
     shape.innerText = text.value;
   } else {
     shape.innerText = "Sample Text";
   }
-  shape.style.fontSize = "20px";
-  shape.setAttribute("class", `shape`);
+  shape.style.fontSize = "15px";
 });
 // ------------------Text Color Input-----------------------------------
 let textColor = document.getElementById("textColor");
